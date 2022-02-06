@@ -1,0 +1,134 @@
+########LOG BEGIN########
+Thu Jan  1 00:00:11 UTC 1970
+Gpio WiFi Power Off
+WORKDIR=/mnt
+VERSION_CONTROL=1.0.3
+VERSION_KERNEL=1.0.167
+VERSION_LIBRARY=1.0.1
+VERSION_SOFTWARE=1.6.4
+Display wait on lcd
+------- Updating authorized_keys -------
+Copying current authorized_keys to backup
+Copying current shadow to for rollback if needed
+authorized_keys to board
+------- Installing sshd -------
+Changing perms for sshd
+Installing sshd start rc script
+Copying current sshd_config to backup
+Installing sshd_config
+Fixing permissions on /var/empty
+Display pwnd on lcd
+export tslib
+play complete music
+########LOG BEGIN########
+Thu Jan  1 00:00:11 UTC 1970
+Gpio WiFi Power Off
+WORKDIR=/mnt
+VERSION_CONTROL=1.0.3
+VERSION_KERNEL=1.0.167
+VERSION_LIBRARY=1.0.1
+VERSION_SOFTWARE=1.6.4
+Display wait on lcd
+------- Updating authorized_keys -------
+Copying current authorized_keys to backup
+Copying current authorized_keys to for rollback if needed
+authorized_keys to board
+------- Installing sshd -------
+Changing perms for sshd
+Installing sshd start rc script
+Copying current sshd_config to backup
+Installing sshd_config
+Fixing permissions on /var/empty
+Display pwnd on lcd
+export tslib
+play complete music
+########LOG BEGIN########
+Thu Jan  1 00:00:11 UTC 1970
+Gpio WiFi Power Off
+WORKDIR=/mnt
+VERSION_CONTROL=1.0.3
+VERSION_KERNEL=1.0.167
+VERSION_LIBRARY=1.0.1
+VERSION_SOFTWARE=1.6.4
+Display wait on lcd
+------- Updating authorized_keys -------
+Copying current authorized_keys to backup
+Copying current authorized_keys to for rollback if needed
+authorized_keys to board
+------- Updating root password to Flashforge default 123456 -------
+Copying current shadow to backup
+File exists! Not copying!
+Copying current shadow to for rollback if needed
+Copying old 123456 password shadow to current
+------- Installing sshd -------
+Changing perms for sshd
+Installing sshd start rc script
+Copying current sshd_config to backup
+Installing sshd_config
+Fixing permissions on /var/empty
+Display pwnd on lcd
+export tslib
+play complete music
+########LOG BEGIN########
+Thu Jan  1 00:00:10 UTC 1970
+Gpio WiFi Power Off
+WORKDIR=/mnt
+VERSION_CONTROL=1.0.3
+VERSION_KERNEL=1.0.167
+VERSION_LIBRARY=1.0.1
+VERSION_SOFTWARE=1.6.4
+Display wait on lcd
+Display pwnd on lcd
+export tslib
+play complete music
+########LOG BEGIN########
+Thu Jan  1 00:00:10 UTC 1970
+Gpio WiFi Power Off
+WORKDIR=/mnt
+VERSION_CONTROL=1.0.3
+VERSION_KERNEL=1.0.167
+VERSION_LIBRARY=1.0.1
+VERSION_SOFTWARE=1.6.4
+Display wait on lcd
+------- Updating EXE = guiderII-arm(guiderII-arm) -------
+rm -rf /PROGRAM/software/*
+create /PROGRAM/software/temp
+update EXE guiderII-arm
+update EXE success
+Display pwnd on lcd
+export tslib
+play complete music
+########LOG BEGIN########
+Thu Jan  1 00:00:10 UTC 1970
+Gpio WiFi Power Off
+WORKDIR=/mnt
+VERSION_CONTROL=1.0.3
+VERSION_KERNEL=1.0.167
+VERSION_LIBRARY=1.0.1
+VERSION_SOFTWARE=1.6.4
+Display wait on lcd
+------- Updating EXE = guiderII-arm(guiderII-arm) -------
+rm -rf /PROGRAM/software/*
+create /PROGRAM/software/temp
+update EXE guiderII-arm
+update EXE success
+Display pwnd on lcd
+export tslib
+play complete music
+########LOG BEGIN########
+Thu Jan  1 00:01:12 UTC 1970
+Gpio WiFi Power Off
+WORKDIR=/mnt
+VERSION_CONTROL=1.0.3
+VERSION_KERNEL=1.0.167
+VERSION_LIBRARY=1.0.1
+VERSION_SOFTWARE=1.6.4
+Display wait on lcd
+------- Updating EXE = guiderII-arm(guiderII-arm) -------
+rm -rf /PROGRAM/software/*
+create /PROGRAM/software/temp
+update EXE guiderII-arm
+update EXE success
+Display pwnd on lcd
+export tslib
+play complete music

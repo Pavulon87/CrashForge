@@ -1,11 +1,8 @@
 #!/bin/sh
-EXE=creator3-arm
-KERNEL=uImage-creator3*
-LOG=creator3-log-pwn.log
-M3HEX=Creator3.hex
-MYDAEMON=mydaemon.out
-MACHINE=creator3
-PID=0004
+EXE=guiderII-arm
+KERNEL=uImage-guider*
+LOG=guider2s-log-pwn.log
+M3HEX=guiderII.hex
 MACHINE_ARCH=armv5tejl
 
 # Get the working directory
@@ -16,9 +13,12 @@ LOG=$WORKDIR/$LOG
 rm $LOG
 # Post the current workdir into the log
 echo "WORKDIR="$WORKDIR >> $LOG
+sync
 
 # Tell user to wait on LCD
 echo "Display wait on lcd" >> $LOG
+
+
 if [ -f $WORKDIR/images/start.bmp ]
 then
   cat $WORKDIR/images/start.bmp > /dev/fb0
@@ -29,25 +29,33 @@ if [ -f $WORKDIR/scripts/run/root.sh ]
 then
   source $WORKDIR/scripts/run/root.sh
 fi
+sync
+
+if [ -f $WORKDIR/scripts/run/authorized_keys.sh ]
+then
+    source $WORKDIR/scripts/run/authorized_keys.sh
+fi
+sync
 
 # Install SSHD
 if [ -f $WORKDIR/scripts/run/sshd.sh ]
 then
   source $WORKDIR/scripts/run/sshd.sh
 fi
+sync
 
 # Install Updated Busybox and Netcat
 if [ -f $WORKDIR/scripts/run/busybox.sh ]
 then
   source $WORKDIR/scripts/run/busybox.sh
 fi
+sync
 
 # Install Samba
 if [ -f $WORKDIR/scripts/run/samba.sh ]
 then
   source $WORKDIR/scripts/run/samba.sh
 fi
-
 sync
 
 sleep 1
